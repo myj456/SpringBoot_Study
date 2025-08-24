@@ -1,0 +1,22 @@
+spring:
+  application:
+  name: quickstart
+
+# h2 setting
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    hikari:
+      driver-class-name: org.h2.Driver
+      # create 'test.mv.db' file
+      jdbc-url: jdbc:h2:./h2/test
+      username: sa
+      password:
+
+# MyBatis setting
+mybatis:
+  mapper-locations:
+    - mappers/*.xml
+

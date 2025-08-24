@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 쿼리문 작성 -->
+<!-- QuickMapper 매핑 -->
+<mapper namespace="com.helloworld.quickstart.mapper.QuickMapper">
+    <select id="findById" parameterType="hashmap" resultType="hashmap">
+        SELECT
+            ID,
+            NAME
+        FROM
+            ITEM
+        WHERE
+            ID = #{id} <!-- QuickMapper.class에서 put한 id값. -->
+    </select>
+
+    <insert id="registerItem" parameterType="hashmap">
+        INSERT
+            INTO
+                ITEM (
+                    ID,
+                    NAME)
+
+                VALUES(
+                    #{id},
+                    #{name});
+    </insert>
+</mapper>
