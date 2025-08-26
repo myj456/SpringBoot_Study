@@ -1,9 +1,4 @@
 # 1시간만에 끝내는 spring boot rest api 서비스 개발
-
-<br>
-<br>
-
-## 한줄 소개
 spring, spring boot 를 하나도 모르는 개발자를 위한 spring boot로 rest api를 한시간만에 만드는 방법을 라이브코딩으로 보여드립니다. <br>
 <a href="https://www.inflearn.com/course/1%EC%8B%9C%EA%B0%84%EB%A7%8C%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-springboot-restapi/dashboard">
   인강사이트
