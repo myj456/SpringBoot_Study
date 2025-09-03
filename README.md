@@ -12,4 +12,11 @@ Spring Boot 공부 내용의 실전 코드입니다.
       인강 사이트
     </a>
 
+25.09.03
+- ### [스프링부트] 게시판 무작정 따라하기 - 한코딩 <br>
+  - 브랜치: Springboot-board1
+  - <a href="https://www.youtube.com/watch?v=frI5CoZe-vE&list=PLZzruF3-_clsWF2aULPsUPomgolJ-idGJ&index=1">
+      인강 사이트
+    </a>
+
 ## 전공책
